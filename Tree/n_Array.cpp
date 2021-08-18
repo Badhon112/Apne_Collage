@@ -1,26 +1,25 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 vector<vector<int>> tree;
-void dfs(int val){
-    cout<<val<<" ";
-    for(const int& node:tree[val]){
-        dfs(val);
+void dfs(int val)
+{
+    cout << val << " ";
+    for (const int& node : tree[val])
+    {
+        dfs(node);
     }
-
-
 }
-int main(){
-    int n,m,v,u;
-    cin>>n>>m;
-    
-    tree.resize(n+1);
+int main()
+{
+    int n, m, v, u;
+    cin >> n >> m;
+
+    tree.resize(n + 1);
     while (m--)
     {
-        cin>>v>>u;
+        cin >> v >> u;
         tree[v].push_back(u);
         //tree[u].push_back(v);
     }
     dfs(1);
-
-    
 }
