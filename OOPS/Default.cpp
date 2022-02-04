@@ -23,6 +23,7 @@ public:
 };
 int main()
 {
-    person ;
+    person P;
     P.valid();
+    cout<<"Done"<<endl;
 }

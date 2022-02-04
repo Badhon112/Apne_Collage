@@ -18,6 +18,9 @@ public:
     {
         cout << "Area of that House : " << length * breath << endl;
     }
+    void nono(){
+        
+    }
 };
 
 int main()
