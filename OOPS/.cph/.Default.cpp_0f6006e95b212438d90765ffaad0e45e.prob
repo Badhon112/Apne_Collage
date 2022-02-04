@@ -1,1 +1,1 @@
-{"name":"Local: Default","url":"f:\\Apna collage\\OOPS\\Default.cpp","tests":[{"id":1643995810525,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Apna collage\\OOPS\\Default.cpp","group":"local","local":true}
+{"name":"Local: Default","url":"f:\\Apna collage\\OOPS\\Default.cpp","tests":[{"id":1643998379623,"input":"Badhon\n19\n6.0\nMahabub\n21\n5.7\nDurjoy\n22\n5.5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Apna collage\\OOPS\\Default.cpp","group":"local","local":true}
